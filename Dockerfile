@@ -1,4 +1,4 @@
-FROM ubuntu:24.04
+FROM ubuntu:22.04
 
 # Update sistem dan install SSH server & sudo
 RUN apt-get update && apt-get install -y openssh-server sudo
